@@ -42,8 +42,8 @@ void loop() {
     }
 
     // map ADC converted value into safe range
-    h = map(black, 0, 1023, hMin, hMax);
-    v = map(red, 0, 1023, vMin, vMax);
+    h = map(h, 0, 1023, hMin, hMax);
+    v = map(v, 0, 1023, vMin, vMax);
 
     // set servos
     horizontal.writeMicroseconds(h);
