@@ -43,6 +43,5 @@ Just run `main.py` and a window should show up. When selecting a serial port the
 
 # TODO
 
-- Wiring schematic
 - Fix Arduino screwing holes
 - Add cable slot for control-box and top servo
