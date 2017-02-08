@@ -24,7 +24,9 @@ You can use the `All_Parts_Plate.stl` file to print all parts at once or just pr
 
 The base box has no bottom and no lid as printing such big monotonous forms will most likely deform while printing. Just use a sheet of acrylic or some aluminium to make the top and bottom plates.
 
-Currently the screwing holes for the Arduino are somewhat off, I will fix that in the future. To route the cables for the top servo and the control box i just drilled a hole in the back.
+If you want to modify the parts to fit your needs get an OnShape Account, the Link to the project is following:
+
+https://cad.onshape.com/documents/6b43bf9158c2330bf8f3274f/w/bf932df38055a7275eddfee5/e/89a3396a8a0f5c6514141639
 
 # Python GUI
 
@@ -43,5 +45,4 @@ Just run `main.py` and a window should show up. When selecting a serial port the
 
 # TODO
 
-- Fix Arduino screwing holes
-- Add cable slot for control-box and top servo
+- Make all parts available on OnShape
